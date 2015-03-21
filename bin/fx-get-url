@@ -21,6 +21,10 @@ program.
     'firefox'
   ).
   option(
+    '--debug',
+    'Download the debug build'
+  ).
+  option(
     '-c, --channel [name]',
     'pre-release channel [tinderbox, release, prerelease]',
     'release'

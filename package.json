@@ -1,17 +1,17 @@
 {
-  "name": "mozilla-get-url",
-  "version": "0.4.3",
-  "description": "Utility to get the url of a particular version/release of a mozilla product (like firefox/b2g)",
+  "name": "fx-get-url",
+  "version": "0.0.1",
+  "description": "Utility to get the url of a particular version/release of firefox",
   "main": "lib/locate.js",
   "scripts": {
     "test": "make test"
   },
   "bin": {
-    "mozilla-get-url": "./bin/mozilla-get-url"
+    "fx-get-url": "./bin/fx-get-url"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mozilla-b2g/mozilla-get-url"
+    "url": "https://github.com/erikvold/fx-get-url"
   },
   "keywords": [
     "mozilla",
@@ -20,10 +20,9 @@
     "download",
     "firefoxos"
   ],
-  "author": "James Lal [:lightsofapollo]",
   "license": "Apache2",
   "bugs": {
-    "url": "https://github.com/mozilla-b2g/mozilla-get-url/issues"
+    "url": "https://github.com/erikvold/fx-get-url/issues"
   },
   "dependencies": {
     "jsftp": "~1.3.1",
